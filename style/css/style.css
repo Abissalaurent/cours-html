@@ -1,0 +1,38 @@
+nav ul{
+ display: flex;/*Permet d'alligner les éléments*/
+ list-style-type:none;/*Enlève les points devant les listes N-O*/
+ justify-content: center;/*Centrer tout le contenu d'une div*/
+ gap: 20px;/*Mettre des espaces entre les élémente flex*/
+}
+
+nav a {
+   text-decoration: none;/*Empecher les liens d'etre souligner*/
+   color: black;
+}
+
+nav a:hover {
+ color: red;
+}
+
+.section{
+    margin-top: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+height: 800px;
+gap: 100px;
+}
+
+.Etudiant{
+    margin: auto ;
+    text-align: center;
+}
+
+.Etudiant2{
+    margin: auto ;
+    text-align: center;
+    max-width: 800px;
+    max-height: 100%;
+}
